@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TerminosYCondicionesActivity"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/textoTerminosYCondiciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminos y Condiciones"
+        android:textSize="35dp"
+        android:gravity="center"
+        />
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text=" Los presentes términos y condiciones (en adelante, los “Términos y Condiciones”) rigen en base a los dispuesto en base a los dispuesto en la ley. Los usuarios de la aplicación denominada, tanto en su versión web –accesible a través de como en su versión para dispositivos móviles que podrá descargarse de las tiendas de aplicaciones oficiales de Android e iOS (en adelante, la “Aplicación”). El ingreso del Usuario en la Aplicación implica la aceptación inmediata y sin reserva de los presentes Términos y Condiciones. En consecuencia, el Usuario manifiesta haber leído y aceptado en su totalidad los Términos y Condiciones; dicha aceptación es indispensable para la utilización de la Aplicación. Si no está de acuerdo con los presentes Términos y Condiciones rogamos no utilizar la Aplicación.
+Descripción de la Aplicación
+1.1. La Aplicación es una herramienta tecnológica que brinda información sobre diversos temas referentes a los avengers, con la finalidad de entretener
+1.2. La Aplicación ofrecerá el correo electrónico avengersapp@gmailcom.ar como vía de contacto para el/la Usuario/a;
+1.3. La Aplicación contará con las siguientes finalidades específicas
+i) brindar información;
+ii) entretenimiento;
+iii) conectar al Usuario/a con un sistema de información seguro;
+iv) posibilitar el acceso a dicha información de forma clara;
+Reiteración: El ingreso del Usuario en la Aplicación implica la aceptación inmediata y sin reserva de los presentes Términos y Condiciones. En consecuencia, el Usuario manifiesta haber leído y aceptado en su totalidad los Términos y Condiciones; dicha aceptación es indispensable para la utilización de la Aplicación."
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAceptarTerminos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Aceptar"
+        />
+
+</LinearLayout>

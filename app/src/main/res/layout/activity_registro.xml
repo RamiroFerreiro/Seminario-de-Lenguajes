@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id ="@+id/textoCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Nuevo Usuario"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/editCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:text=". . ."
+        android:gravity="center"
+        />
+
+
+
+    <TextView
+        android:id ="@+id/textoCrearContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Contraseña"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/editCrearContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text=". . ."
+        android:gravity="center"
+        android:inputType="text"
+        />
+
+
+
+
+    <TextView
+        android:id ="@+id/textoRepetirContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repetir Contraseña"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/editRepetirContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text=". . ."
+        android:gravity="center"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/registrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        />
+
+
+</LinearLayout>

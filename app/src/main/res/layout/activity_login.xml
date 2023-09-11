@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/textoIngresarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Usuario"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editIngresarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:text=". . ."
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/textoIngresarContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Contraseña"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editIngresarContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:text=". . ."
+        android:gravity="center"
+        />
+
+    <CheckBox
+        android:id="@+id/cbRecordar"
+        android:text="Recordar Usuario"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resgistrarse"
+        />
+</LinearLayout>
