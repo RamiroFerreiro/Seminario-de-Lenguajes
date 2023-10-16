@@ -7,16 +7,20 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import android.content.Intent
+import android.widget.ImageView
+import com.squareup.picasso.Picasso
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var toolbar: Toolbar
 
-
+    lateinit var imageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        imageView = findViewById(R.id.imagenPicasso)
 
 
         toolbar = findViewById(R.id.toolbar)
@@ -24,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         supportActionBar!!.title = resources.getString(R.string.tituloAB)
 
         saludarUsuario()
+
+        Picasso.get()
+            .load("https://i.pinimg.com/originals/bb/51/ac/bb51ac98f6c564acc33ccab53edab1fa.jpg")
+            .into(imageView)
 
     }
 

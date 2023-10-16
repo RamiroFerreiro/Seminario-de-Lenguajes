@@ -8,7 +8,8 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
     android:orientation="vertical"
-    android:layout_margin="8dp">
+    android:background="@drawable/fondologins"
+    >
 
     <TextView
         android:id="@+id/textoIngresarUsuario"
@@ -17,6 +18,7 @@
         android:text="Ingresar Usuario"
         android:gravity="center"
         android:textSize="30dp"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -27,6 +29,7 @@
         android:textSize="30dp"
         android:text=". . ."
         android:gravity="center"
+        android:textColor="@color/white"
         />
 
 
@@ -37,6 +40,7 @@
         android:text="Ingresar Contraseña"
         android:gravity="center"
         android:textSize="30dp"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -47,6 +51,7 @@
         android:textSize="30dp"
         android:text=". . ."
         android:gravity="center"
+        android:textColor="@color/white"
         />
 
     <CheckBox
@@ -55,12 +60,17 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:textSize="20dp"
         />
+
     <Button
         android:id="@+id/btnIniciarSesion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Iniciar Sesion"
+        android:textSize="20dp"
         />
 
     <Button
@@ -68,5 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Resgistrarse"
+        android:textSize="20dp"
         />
+
 </LinearLayout>
